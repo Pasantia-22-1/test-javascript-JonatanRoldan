@@ -3,6 +3,11 @@
 ? Intenta crear un comentario
 ================================================================================================================================================== */ 
 
+// comentario linea
+/* comentario 
+de 
+muchas 
+lineas*/
 
 
 
@@ -12,7 +17,7 @@
 ? Declara una variable'myName'
 ================================================================================================================================================== */ 
 
-
+var myName;
 
 
 
@@ -20,10 +25,8 @@
 *   Almacenar valores con el operador de asignación(=) 
 ?   Declara una variable 'a' y debajo asígnale el valor '7'
 ================================================================================================================================================== */ 
-
-
-
-
+var a;
+a=7;
 
 
 /* ==================================================================================================================================================
@@ -32,18 +35,16 @@
 ?   Declara una variable 'b' y asígnale el contenido de 'a'
 ================================================================================================================================================== */ 
 
-
-
-
-
-
+var a, b;
+a=7;
+b=a;
 
 
 /* ==================================================================================================================================================
 *   Inicializa variables con el operador de asignación 
 ?   Define una variable 'a' con 'var' e inicialízala con un valor de '9'
 ================================================================================================================================================== */
-
+var a = 9;
 
 
 
@@ -55,7 +56,11 @@
 ?   Utiliza console.log() para ver los resultados
 ================================================================================================================================================== */ 
 // Cambia solo el código debajo de esta línea
-
+var a,b,c;
+a=5;
+b-10;
+c="I am a"
+console.log("variable a:"+a+"variable b"+b+"variable c"+c)
 
 
 // Cambia solo el código encima de esta línea
@@ -94,7 +99,8 @@ c = c + " String!";
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
 
-
+var sum= 5 + 2;
+console.log(sum)
 
 
 
@@ -104,7 +110,8 @@ c = c + " String!";
 ?   Declara una variable 'difference' e inicializala con una resta de dos enteros
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
-
+var difference= 5 + 2;
+console.log(difference)
 
 
 
@@ -115,7 +122,8 @@ c = c + " String!";
 ?   Declara una variable 'product' e inicializala con una multiplicacion de dos enteros
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
-
+var product= 5 * 2;
+console.log(product)
 
 
 
@@ -126,7 +134,8 @@ c = c + " String!";
 ?   Declara una variable 'quotient' e inicializala con una división de dos enteros
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
-
+var quotient= 5 / 2;
+console.log(quotient);
 
 
 
@@ -138,7 +147,9 @@ c = c + " String!";
 ?   Incrementala en 1 con '++' 
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
-
+var myVar = 87;
+myVar++;
+console.log(myVar);
 
 
 
@@ -151,7 +162,9 @@ c = c + " String!";
 ?   Incrementala en 1 con '--'
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
-
+var myVar = 87;
+myVar--;
+console.log(myVar);
 
 
 
@@ -162,7 +175,8 @@ c = c + " String!";
 *   Crea números decimales con JavaScript 
 ?   Crea una variable 'myDecimal' y dale un valor decimal con una parte fraccional
 ================================================================================================================================================== */ 
-
+var myDecimal = 87.45;
+console.log(myDecimal);
 
 
 
@@ -172,9 +186,9 @@ c = c + " String!";
 ?   Crea una variable 'product' y luego has una multiplicacion con numeros decimales cuyo resultado sea '5.0'
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
-
-
-
+var product=1;
+product=product*0.5
+console.log(product)
 
 
 
@@ -184,7 +198,9 @@ c = c + " String!";
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
 
-
+var quotient = 4;
+quotient= quotient / 8,8
+console.log(quotient)
 
 
 
@@ -194,7 +210,9 @@ c = c + " String!";
 ?   Crea una variable 'quotient' y luego has una operacion de resto cuyo resultado sea '2'
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
-
+var quotient = 12;
+quotient= quotient % 5
+console.log(quotient)
 
 
 
@@ -210,9 +228,9 @@ var b = 17;
 var c = 12;
 
 // Cambia solo el código debajo de esta línea
-a = a + 12;
-b = b + 9;
-c = c + 7;
+a +=  12;
+b +=  9;
+c +=  7;
 console.log(a)
 console.log(b)
 console.log(c)
@@ -230,9 +248,9 @@ var b = 9;
 var c = 3;
 
 // Cambia solo el código debajo de esta línea
-a = a - 6;
-b = b - 15;
-c = c - 1;
+a -=  6;
+b -=  15;
+c -=  1;
 console.log(a)
 console.log(b)
 console.log(c)
@@ -250,9 +268,9 @@ var b = 12;
 var c = 4.6;
 
 // Cambia solo el código debajo de esta línea
-a = a * 5;
-b = b * 3;
-c = c * 10;
+a *=  5;
+b *=  3;
+c *=  10;
 console.log(a)
 console.log(b)
 console.log(c)
@@ -270,9 +288,9 @@ var b = 108;
 var c = 33;
 
 // Cambia solo el código debajo de esta línea
-a = a / 12;
-b = b / 4;
-c = c / 11;
+a /=  12;
+b /=  4;
+c /=  11;
 console.log(a)
 console.log(b)
 console.log(c)
@@ -286,10 +304,11 @@ console.log(c)
 ?   Concatena ambas variables en una variable 'myName'
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
-
-
-
-
+var myFirstName ,myLastName, myName;
+myFirstName= Jontan;
+myLastName=Manuel;
+myName=myFirstName.concatenare(myLastName);
+console.log(myName)
 
 
 
@@ -300,8 +319,8 @@ console.log(c)
 ?   I am a "double quoted" string inside "double quotes".
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
-var myStr = ""
-
+var myStr = 'I am a "double quoted" string inside "double quotes"';
+console.log(myStr);
 
 
 
@@ -322,8 +341,8 @@ var myStr = ""
 ?   usa el operador '+' para concatenar dos strings
 ?   utiliza console.log() para ver el resultado 
 ================================================================================================================================================== */ 
-var myStr = ""
-
+var myStr = "hola"
+console.log(myStr+"y adios")
 
 
 
@@ -333,7 +352,9 @@ var myStr = ""
 ?   Construye la cadena anterior en dos líneas uitilizanco "+="
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
-
+var myStr = "hola"
+myStr+="adios"
+console.log(myStr)
 
 
 
@@ -346,10 +367,10 @@ var myStr = ""
 ?   Crea una segunda variable que contenga dos strings y 'myName' entre estos.
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
-
-
-
-
+var myName="Jontan";
+let a = ["uno","dos"];
+a.push(myName);
+console.log(a);
 
 
 
@@ -359,14 +380,11 @@ var myStr = ""
 ?   añade una a la otra con el operador '+='
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
-
+var uno = ["hola1", "hola2"];
+var dos = ["hola3","hola4"];
+console.log((uno += dos))
 
  
-
-
-
-
-
 /* ==================================================================================================================================================
 *   Encuentra la longitud de una cadena
 ?   Crea una variable 'lastNameLength' e inicianizala con el valor de 0 y una variable 'lastName' e inicianizala con la cadena 'Lovelace'
@@ -374,8 +392,10 @@ var myStr = ""
 ?   y asignarla a 'lastNameLength' con '+='.
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
-
-
+var LastNameLength = 0;
+lastName = "Lovelace"
+LastNameLength+= lastName.length();
+console.log(LastNameLength);
 
 
 
@@ -390,11 +410,10 @@ var myStr = ""
 ?   y asígnalo a 'firstLetterOfLastName'.
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
-
-
-
-
-
+var firstLetterOfLastNamme="";
+var lastName="Lovelace"
+firstLetterOfLastNamme+= lastName.substring(0,lastName.length());
+console.log(firstLetterOfLastNamme)
 
 
 
@@ -405,7 +424,7 @@ var myStr = ""
 ================================================================================================================================================== */ 
 var myStr = "Jello World";
 // Cambia solo el código debajo de esta línea
-
+myStr.length(0)="H"
 
 
 
@@ -416,7 +435,7 @@ var myStr = "Jello World";
 ================================================================================================================================================== */ 
 var lastName = "Lovelace";
 // Cambia solo el código debajo de esta línea
-
+var thirdLetterOfLastName = lastName.indexOf
 
 
 
